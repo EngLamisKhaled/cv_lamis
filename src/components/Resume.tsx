@@ -23,13 +23,17 @@ const Resume = () => {
             </p>
           </div>
 
-          <button className="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          {/* رابط التحميل */}
+          <a
+            href="/Lamis_Khaled_CV.pdf"
+            download
+            className="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
             <Download className="mr-3" size={24} />
             Download My CV
-          </button>
+          </a>
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Last updated: January 2025 • PDF Format • 2 pages</p>
           </div>
         </div>
       </div>
